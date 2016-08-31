@@ -11,19 +11,12 @@ public class Solution {
 
 
     public void countWord ( String A1, String B2){
-//        this.A = A1;
-//        this.B = B2;
-//        A = A.toUpperCase();
-//        B = B.toUpperCase();
-
 
         /**
          * Changes the first letter of the word to an upper case.
          */
         String A = A1.substring(0, 1).toUpperCase() + A1.substring(1);
         String B = B2.substring(0, 1).toUpperCase() + B2.substring(1);
-
-        //System.out.println("================ " +A1.substring(0, 1).toUpperCase());
 
 
         /**
@@ -43,8 +36,7 @@ public class Solution {
         String[] length_B = B.split(" ");
 
 
-//        String  uppercaseA = length_A[0].toUpperCase();
-//        String  uppercaseB = length_A[0].toUpperCase();
+// 
 
         /**
          * Loops through the array and get the number of characters(the length of the array) in the string.
