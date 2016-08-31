@@ -27,7 +27,7 @@ public class Solution {
 
 
         /**
-         * Get the first character(i) of the string and store as sortA and sortB respectively
+         * Get the first character(i) of the string and store as sortA and sortB respectively.
          */
         String sortA = A1.substring(0, 1).toUpperCase();
         String sortB = B2.substring(0, 1).toUpperCase();
